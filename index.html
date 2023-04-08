@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title> RECOGNIZING ANIMALS BY VOICE </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <center>
+            <div id="DIV1">
+                <h1>Sound Controlled Animals</h1>
+                <h3>Note : Play sounds like barking, meowing, roaring and mooing</h3>
+            </div>
+            <div id="DIV2">
+                <br>
+                <button id="btnstart" onclick="startClassification()" >Start</button>
+                <h4 id="animal" > I can hear - </h4>
+                <h4 id="confidence">Accuracy - </h4>
+                <br>
+                <img id="animalimg" src="https://banner2.cleanpng.com/20180319/iuw/kisspng-computer-icons-hearing-clip-art-ear-healthcare-hear-hearing-icon-5ab0580db4a774.24161896152150631774.jpg" width="300" height="300">
+                <br>
+                <hr><hr>
+            </div>
+            <div class="copy_right_footer">
+                Developed by - Mannat Bhagat
+              </div>
+        </center>
+        <script src="main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,40 @@
+#DIV1{
+    background-color: rgb(233, 203, 203);
+    color: rgba(0, 0, 0, 0.792);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: medium;
+    margin: 20px;
+}
+#DIV2{
+    margin: 20px;
+    background-color: rgb(240, 225, 225);
+}
+.copy_right_footer{
+    position: fixed;
+    color: rgb(28, 20, 20);
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+    background-color: rgb(233, 203, 203);
+    line-height: 3;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(246, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+}
+#DIV1 h1{
+font-family: 'Satisfy', cursive;
+}
+#DIV1 h3{
+    font-family: 'Satisfy', cursive;
+}
+#btnstart{
+    font-family: 'Satisfy', cursive;;
+    font-size: 20px;
+    background-color: white;
+}
+#DIV2 h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
